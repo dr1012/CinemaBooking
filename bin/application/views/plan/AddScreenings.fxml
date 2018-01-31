@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="507.0" prefWidth="416.0" stylesheets="@baseEmployee.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.views.plan.AddScreeningsController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#84898d" height="36.0" layoutY="52.0" stroke="#8d8383" strokeType="INSIDE" strokeWidth="0.4" width="416.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0f151b" height="173.0" layoutX="286.0" layoutY="87.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" width="130.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cce1f5" height="233.0" layoutX="286.0" layoutY="258.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" width="130.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cce1f5" height="43.0" layoutY="13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="416.0" />
+      <Button fx:id="saveBtn" layoutX="10.0" layoutY="463.0" mnemonicParsing="false" onAction="#saveScreeningData" prefHeight="31.0" prefWidth="75.0" text="Save" />
+      <ComboBox fx:id="films" layoutX="92.0" layoutY="105.0" prefHeight="43.0" prefWidth="181.0" />
+      <DatePicker fx:id="dates" layoutX="92.0" layoutY="178.0" onAction="#datePicked" prefHeight="43.0" prefWidth="181.0" />
+      <ListView fx:id="times" layoutX="95.0" layoutY="259.0" prefHeight="233.0" prefWidth="174.0" />
+      <Label fx:id="statusLbl" alignment="CENTER" layoutX="296.0" layoutY="267.0" prefHeight="214.0" prefWidth="111.0" styleClass="messageArea" textAlignment="CENTER" textFill="#b95656" wrapText="true" />
+      <TilePane layoutX="299.0" layoutY="101.0" prefHeight="143.0" prefWidth="88.0">
+         <children>
+            <ImageView fx:id="pic" fitHeight="144.0" fitWidth="104.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../../resources/images/placeholder.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </children></TilePane>
+      <Label layoutX="16.0" layoutY="113.0" styleClass="filmInfo" text="Film:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="186.0" styleClass="filmInfo" text="Date: ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="267.0" prefHeight="43.0" prefWidth="81.0" styleClass="filmInfo" text="Times:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="19.0" mnemonicParsing="false" onAction="#exitAddScreenings" prefHeight="31.0" prefWidth="64.0" text="Back" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="163.0" layoutY="7.0" prefHeight="52.0" prefWidth="241.0" styleClass="title" text="Add Screenings" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <opaqueInsets>
+            <Insets left="15.0" right="15.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="timesAlert" layoutX="36.0" layoutY="300.0" prefHeight="36.0" prefWidth="24.0" styleClass="emptyField" textFill="#b22020">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="dateAlert" layoutX="34.0" layoutY="203.0" prefHeight="36.0" prefWidth="24.0" styleClass="emptyField" textFill="#b22020">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="fNameAlert" layoutX="34.0" layoutY="130.0" prefHeight="36.0" prefWidth="24.0" styleClass="emptyField" textFill="#b22020">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

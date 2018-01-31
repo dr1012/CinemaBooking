@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bookings>
+    <booking>
+        <bookingDate>2017-12-14</bookingDate>
+        <screeningDate>2018-12-23</screeningDate>
+        <screeningTime>12</screeningTime>
+        <seat>f2</seat>
+        <title>Last of the Mohicans</title>
+        <userName>rudolf</userName>
+    </booking>
+    <booking>
+        <bookingDate>2018-01-31</bookingDate>
+        <screeningDate>2018-02-03</screeningDate>
+        <screeningTime>10</screeningTime>
+        <seat>a1</seat>
+        <title>Das Boot</title>
+        <userName>rudolf</userName>
+    </booking>
+    <booking>
+        <bookingDate>2018-01-31</bookingDate>
+        <screeningDate>2018-02-03</screeningDate>
+        <screeningTime>10</screeningTime>
+        <seat>b1</seat>
+        <title>Das Boot</title>
+        <userName>rudolf</userName>
+    </booking>
+    <booking>
+        <bookingDate>2018-01-31</bookingDate>
+        <screeningDate>2018-02-03</screeningDate>
+        <screeningTime>10</screeningTime>
+        <seat>c2</seat>
+        <title>Das Boot</title>
+        <userName>rudolf</userName>
+    </booking>
+    <booking>
+        <bookingDate>2018-01-31</bookingDate>
+        <screeningDate>2018-02-03</screeningDate>
+        <screeningTime>10</screeningTime>
+        <seat>b3</seat>
+        <title>Das Boot</title>
+        <userName>rudolf</userName>
+    </booking>
+    <booking>
+        <bookingDate>2018-01-31</bookingDate>
+        <screeningDate>2018-02-03</screeningDate>
+        <screeningTime>10</screeningTime>
+        <seat>c5</seat>
+        <title>Das Boot</title>
+        <userName>rudolf</userName>
+    </booking>
+    <booking>
+        <bookingDate>2018-01-31</bookingDate>
+        <screeningDate>2018-03-03</screeningDate>
+        <screeningTime>11</screeningTime>
+        <seat>c3</seat>
+        <title>Last of the Mohicans</title>
+        <userName>rudolf</userName>
+    </booking>
+    <booking>
+        <bookingDate>2018-01-31</bookingDate>
+        <screeningDate>2018-03-03</screeningDate>
+        <screeningTime>11</screeningTime>
+        <seat>c4</seat>
+        <title>Last of the Mohicans</title>
+        <userName>rudolf</userName>
+    </booking>
+    <booking>
+        <bookingDate>2018-01-31</bookingDate>
+        <screeningDate>2018-03-03</screeningDate>
+        <screeningTime>11</screeningTime>
+        <seat>b5</seat>
+        <title>Last of the Mohicans</title>
+        <userName>rudolf</userName>
+    </booking>
+    <booking>
+        <bookingDate>2018-01-31</bookingDate>
+        <screeningDate>2018-03-03</screeningDate>
+        <screeningTime>11</screeningTime>
+        <seat>c5</seat>
+        <title>Last of the Mohicans</title>
+        <userName>rudolf</userName>
+    </booking>
+    <booking>
+        <bookingDate>2018-01-31</bookingDate>
+        <screeningDate>2018-03-03</screeningDate>
+        <screeningTime>11</screeningTime>
+        <seat>c6</seat>
+        <title>Last of the Mohicans</title>
+        <userName>rudolf</userName>
+    </booking>
+    <booking>
+        <bookingDate>2018-01-31</bookingDate>
+        <screeningDate>2018-03-03</screeningDate>
+        <screeningTime>11</screeningTime>
+        <seat>b6</seat>
+        <title>Last of the Mohicans</title>
+        <userName>rudolf</userName>
+    </booking>
+</bookings>

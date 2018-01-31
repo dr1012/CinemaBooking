@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+
+<BorderPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.views.plan.ManageFilmsController">
+   <right>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutX="-2.0" prefHeight="400.0" prefWidth="554.0" stylesheets="@baseEmployee.css">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cad4f2" height="176.0" layoutX="369.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="151.0" />
+                  <Button fx:id="uploadImage" layoutX="366.0" layoutY="221.0" mnemonicParsing="false" onAction="#uploadPic" prefHeight="31.0" prefWidth="155.0" text="Upload Image" />
+                  <GridPane gridLinesVisible="true" layoutX="14.0" layoutY="14.0" prefHeight="365.0" prefWidth="337.0" styleClass="mygrid">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="159.0" minWidth="10.0" prefWidth="111.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="285.0" minWidth="10.0" prefWidth="241.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="59.0" minHeight="2.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="183.0" minHeight="10.0" prefHeight="158.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="94.0" minHeight="10.0" prefHeight="39.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="94.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+                           <children>
+                              <TextField fx:id="filmName" layoutX="7.0" layoutY="12.0" prefHeight="32.0" prefWidth="217.0" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                           <children>
+                              <Label layoutX="10.0" layoutY="81.0" text="Description:" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <children>
+                              <TextArea fx:id="description" layoutX="6.0" layoutY="7.0" prefHeight="165.0" prefWidth="218.0" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+                           <children>
+                              <Label layoutX="8.0" layoutY="22.0" text="Ticket cost:" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
+                           <children>
+                              <Label layoutX="29.0" layoutY="21.0" text="Genre:" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Label layoutX="13.0" layoutY="19.0" text="Film Name:" />
+                           </children>
+                        </AnchorPane>
+                        <ComboBox fx:id="ticketCost" prefWidth="150.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                        <ComboBox fx:id="genreBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </GridPane>
+                  <ImageView fx:id="pic" fitHeight="168.0" fitWidth="143.0" layoutX="373.0" layoutY="18.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../../resources/images/placeholder.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="storeOldPicPath" layoutX="254.0" layoutY="14.0" />
+                  <Button layoutX="369.0" layoutY="348.0" mnemonicParsing="false" onAction="#uploadTrailer" prefHeight="31.0" prefWidth="157.0" text="Upload Trailer" />
+                  <TextField fx:id="trailerPathText" layoutX="366.0" layoutY="298.0" prefHeight="32.0" prefWidth="160.0" />
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+   </right>
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="152.0" stylesheets="@baseEmployee.css" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5472bc" height="400.0" layoutX="-2.0" stroke="BLACK" strokeType="INSIDE" width="163.0" />
+            <RadioButton fx:id="clickToEditFilm" layoutX="17.0" layoutY="113.0" mnemonicParsing="false" onAction="#enableCombo" text="Edit existing film" textFill="WHITE" />
+            <ComboBox fx:id="chooseExistingFilm" layoutX="14.0" layoutY="141.0" onAction="#existingFilmPicked" prefHeight="31.0" prefWidth="131.0" promptText="Choose a film" />
+            <Button fx:id="delete" layoutX="26.0" layoutY="20.0" mnemonicParsing="false" onAction="#deleteFilm" prefHeight="31.0" prefWidth="108.0" text="Delete film" />
+            <Button fx:id="clear" layoutX="27.0" layoutY="185.0" mnemonicParsing="false" onAction="#clearFields" prefHeight="31.0" prefWidth="106.0" text="Clear Fields" />
+            <Button fx:id="exit" layoutX="28.0" layoutY="344.0" mnemonicParsing="false" onAction="#exitModify" prefHeight="31.0" prefWidth="104.0" text="Exit" />
+            <Button fx:id="saveDeets" layoutX="25.0" layoutY="287.0" mnemonicParsing="false" onAction="#saveDetails" prefHeight="36.0" prefWidth="110.0" text="Save Details" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

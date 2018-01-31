@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<seances>
+    <seance>
+        <day>2018-12-29</day>
+        <film>Last of the Mohicans</film>
+        <time>12:00</time>
+    </seance>
+    <seance>
+        <day>2018-12-29</day>
+        <film>Star Wars</film>
+        <time>13:00</time>
+    </seance>
+    <seance>
+        <day>2018-12-29</day>
+        <film>Star Wars</film>
+        <time>15:00</time>
+    </seance>
+    <seance>
+        <day>2018-12-29</day>
+        <film>Star Wars</film>
+        <time>17:00</time>
+    </seance>
+    <seance>
+        <day>2018-12-15</day>
+        <film>Star Wars</film>
+        <time>11:00</time>
+    </seance>
+    <seance>
+        <day>2018-12-15</day>
+        <film>Star Wars</film>
+        <time>13:00</time>
+    </seance>
+    <seance>
+        <day>2018-12-15</day>
+        <film>Star Wars</film>
+        <time>14:00</time>
+    </seance>
+    <seance>
+        <day>2018-03-03</day>
+        <film>Last of the Mohicans</film>
+        <time>09:00</time>
+    </seance>
+    <seance>
+        <day>2018-03-03</day>
+        <film>Last of the Mohicans</film>
+        <time>10:00</time>
+    </seance>
+    <seance>
+        <day>2018-03-03</day>
+        <film>Last of the Mohicans</film>
+        <time>11:00</time>
+    </seance>
+    <seance>
+        <day>2018-03-03</day>
+        <film>Last of the Mohicans</film>
+        <time>13:00</time>
+    </seance>
+    <seance>
+        <day>2018-03-03</day>
+        <film>Last of the Mohicans</film>
+        <time>15:00</time>
+    </seance>
+    <seance>
+        <day>2018-03-03</day>
+        <film>Last of the Mohicans</film>
+        <time>18:00</time>
+    </seance>
+    <seance>
+        <day>2018-03-03</day>
+        <film>Last of the Mohicans</film>
+        <time>19:00</time>
+    </seance>
+    <seance>
+        <day>2018-02-04</day>
+        <film>La Haine</film>
+        <time>12:00</time>
+    </seance>
+    <seance>
+        <day>2018-02-04</day>
+        <film>La Haine</film>
+        <time>13:00</time>
+    </seance>
+    <seance>
+        <day>2018-02-04</day>
+        <film>La Haine</film>
+        <time>14:00</time>
+    </seance>
+    <seance>
+        <day>2018-02-03</day>
+        <film>Last of the Mohicans</film>
+        <time>14:00</time>
+    </seance>
+    <seance>
+        <day>2018-02-03</day>
+        <film>Last of the Mohicans</film>
+        <time>15:00</time>
+    </seance>
+    <seance>
+        <day>2018-02-03</day>
+        <film>Last of the Mohicans</film>
+        <time>16:00</time>
+    </seance>
+    <seance>
+        <day>2018-02-03</day>
+        <film>Last of the Mohicans</film>
+        <time>19:00</time>
+    </seance>
+    <seance>
+        <day>2018-02-03</day>
+        <film>Das Boot</film>
+        <time>10:00</time>
+    </seance>
+    <seance>
+        <day>2018-02-03</day>
+        <film>Das Boot</film>
+        <time>18:00</time>
+    </seance>
+    <seance>
+        <day>2018-02-04</day>
+        <film>Das Boot</film>
+        <time>18:00</time>
+    </seance>
+    <seance>
+        <day>2018-02-04</day>
+        <film>Das Boot</film>
+        <time>19:00</time>
+    </seance>
+    <seance>
+        <day>2018-02-05</day>
+        <film>Das Boot</film>
+        <time>12:00</time>
+    </seance>
+    <seance>
+        <day>2018-02-05</day>
+        <film>Das Boot</film>
+        <time>15:00</time>
+    </seance>
+    <seance>
+        <day>2018-02-05</day>
+        <film>Das Boot</film>
+        <time>16:00</time>
+    </seance>
+</seances>

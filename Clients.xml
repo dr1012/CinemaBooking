@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<clients>
+    <client>
+        <email>elonmusk@gmail.com</email>
+        <firstName>David</firstName>
+        <lastName>Rudolf</lastName>
+        <password>pass</password>
+        <userName>rudolf</userName>
+    </client>
+</clients>

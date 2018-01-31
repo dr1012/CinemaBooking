@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employees>
+    <employee>
+        <firstName>John</firstName>
+        <lastName>Smith</lastName>
+        <password>password</password>
+        <userName>smith</userName>
+    </employee>
+</employees>

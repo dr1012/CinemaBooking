@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<films>
+    <film>
+        <description>The Last of the Mohicans is a 1992 American epic historical drama, set in 1757 during the French and Indian War as the British seek to consolidate their domination.</description>
+        <mainGenre>Action</mainGenre>
+        <name>Last of the Mohicans</name>
+        <path>resources/images/Last of the Mohicans.png</path>
+        <ticketPrice>5</ticketPrice>
+        <trailerPath>resources/videos/Last of the Mohicans.mp4</trailerPath>
+    </film>
+    <film>
+        <description>Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station while also attempting to rescue Princess Leia from the evil Darth Vader.</description>
+        <mainGenre>Fantasy</mainGenre>
+        <name>Star Wars</name>
+        <path>resources/images/Star Wars.png</path>
+        <ticketPrice>8</ticketPrice>
+        <trailerPath>resources/videos/Star Wars.mp4</trailerPath>
+    </film>
+    <film>
+        <description>When a young Arab is arrested and beaten unconscious by police, a riot erupts in the notoriously violent suburbs outside of Paris. Three of the victim's peers, Vinz (Vincent Cassel), Said (Said Taghmaoui) and Hubert (Hubert Koundé), wander aimlessly about their home turf in the aftermath of the violence</description>
+        <mainGenre>Thriller</mainGenre>
+        <name>La Haine</name>
+        <path>resources/images/La Haine.png</path>
+        <ticketPrice>8</ticketPrice>
+        <trailerPath>resources/videos/La Haine.mp4</trailerPath>
+    </film>
+    <film>
+        <description>A German submarine patrols the Atlantic Ocean during World War II, manned by a crew that must contend with tense conflicts and long stretches of confined boredom.</description>
+        <mainGenre>Action</mainGenre>
+        <name>Das Boot</name>
+        <path>resources/images/Das Boot.png</path>
+        <ticketPrice>5</ticketPrice>
+        <trailerPath>resources/videos/Das Boot.mp4</trailerPath>
+    </film>
+    <film>
+        <description>In this acclaimed French drama, the enterprising Ugolin Soubeyran (Daniel Auteuil) returns to his native countryside after the serving in the military. Intent on growing expensive flowers, he conspires with his uncle, Cesar (Yves Montand), to gain access to a hidden spring on a neighboring property.</description>
+        <mainGenre>Romantic Comedy</mainGenre>
+        <name>Jean de Florette</name>
+        <path>resources/images/Jean de Florette.png</path>
+        <ticketPrice>5</ticketPrice>
+        <trailerPath>resources/videos/Jean de Florette.mp4</trailerPath>
+    </film>
+</films>

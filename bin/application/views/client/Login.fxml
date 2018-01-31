@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.views.client.MainControl">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../resources/images/curtains.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="470.0" layoutY="420.0" mnemonicParsing="false" onAction="#Login" prefHeight="68.0" prefWidth="146.0" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtUsername" layoutX="288.0" layoutY="243.0" promptText="Username">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="txtPassword" layoutX="288.0" layoutY="334.0" promptText="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="regButton" layoutX="178.0" layoutY="420.0" mnemonicParsing="false" onAction="#GoToReg" prefHeight="68.0" prefWidth="146.0" text="Register" />
+      <Label layoutX="273.0" layoutY="103.0" prefHeight="65.0" prefWidth="254.0" text="WELCOME">
+         <font>
+            <Font name="Pristina" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
